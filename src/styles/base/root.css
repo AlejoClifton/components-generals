@@ -1,0 +1,32 @@
+:root {
+    /** Colores de texto **/
+    --primary-color: #1e293b;
+    --secondary-color: #64748b;
+    --white-color: #fff;
+    --black-color: #000;
+
+    /** Colores de los backgrounds **/
+    --bg-white-color: #fff;
+    --bg-black-color: #000;
+    --bg-body-color: #f1f5f9;
+    --bg-modal-color: #868686;
+
+    --bg-table-color: #434351;
+    --bg-header-color: #434351;
+
+    --bg-gray-05: color-mix(in srgb, var(--bg-white-color), black 5%);
+    --bg-gray-10: color-mix(in srgb, var(--bg-white-color), black 10%);
+    --bg-gray-15: color-mix(in srgb, var(--bg-white-color), black 15%);
+    --bg-gray-20: color-mix(in srgb, var(--bg-white-color), black 20%);
+    --bg-gray-30: color-mix(in srgb, var(--bg-white-color), black 30%);
+    --bg-gray-40: color-mix(in srgb, var(--bg-white-color), black 40%);
+    --bg-gray-50: color-mix(in srgb, var(--bg-white-color), black 50%);
+    --bg-gray-60: color-mix(in srgb, var(--bg-white-color), black 60%);
+    --bg-gray-70: color-mix(in srgb, var(--bg-white-color), black 70%);
+    --bg-gray-80: color-mix(in srgb, var(--bg-white-color), black 80%);
+    --bg-gray-90: color-mix(in srgb, var(--bg-white-color), black 90%);
+
+    /** títulos **/
+    --title-color: rgb(30, 41, 59);
+    --subtitle-color: #727272;
+}

@@ -1,0 +1,14 @@
+/* Buttons Colours */
+:root {
+    --bg-01-color: #0e2264;
+    --bg-01-disabled: #ccc;
+    --font-size: 0.875rem;
+    --txt-01-color: #fff;
+
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --info-color: #17a2b8;
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+}

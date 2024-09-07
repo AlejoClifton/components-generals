@@ -1,0 +1,25 @@
+.row {
+    background-color: var(--bg-header-color);
+}
+
+.containTH {
+    min-width: 9.375rem;
+
+    &:first-child {
+        padding-left: 1.5rem;
+    }
+
+    &:last-child {
+        padding-right: 1.5rem;
+    }
+}
+
+.containButton {
+    min-width: 3.125rem;
+}
+
+.tableTH {
+    color: white;
+    height: 3.125rem;
+    text-align: left;
+}

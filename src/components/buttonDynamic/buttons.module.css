@@ -1,0 +1,118 @@
+.btn {
+    background-color: var(--bg-01-color);
+    border-radius: 3.125rem;
+    color: var(--txt-01-color);
+    cursor: pointer;
+    font-size: var(--font-size);
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+
+    &:is(:hover) {
+        background-color: color-mix(in srgb, var(--bg-01-color), black 20%);
+    }
+
+    &:is(:disabled) {
+        background-color: var(--bg-01-disabled);
+        cursor: not-allowed;
+    }
+
+    &:is(:active) {
+        background-color: color-mix(in srgb, var(--bg-01-color), black 40%);
+    }
+}
+
+.success {
+    background-color: var(--success-color);
+    color: var(--txt-01-color);
+
+    &:is(:hover) {
+        background-color: #218838;
+    }
+
+    &:is(:active) {
+        background-color: #1e7e34;
+    }
+}
+
+.warning {
+    background-color: var(--warning-color);
+    color: #212529;
+
+    &:is(:hover) {
+        background-color: #e0a800;
+    }
+
+    &:is(:active) {
+        background-color: #c69500;
+    }
+}
+
+.danger {
+    background-color: var(--danger-color);
+    color: var(--txt-01-color);
+
+    &:is(:hover) {
+        background-color: #c82333;
+    }
+
+    &:is(:active) {
+        background-color: #bd2130;
+    }
+}
+
+.info {
+    background-color: var(--info-color);
+    color: var(--txt-01-color);
+
+    &:is(:hover) {
+        background-color: #138496;
+    }
+
+    &:is(:active) {
+        background-color: #117a8b;
+    }
+}
+
+.dark {
+    background-color: var(--dark-color);
+    color: var(--txt-01-color);
+
+    &:is(:hover) {
+        background-color: #23272b;
+    }
+
+    &:is(:active) {
+        background-color: #1d2124;
+    }
+}
+
+.light {
+    background-color: var(--light-color);
+    color: #212529;
+
+    &:is(:hover) {
+        background-color: #e2e6ea;
+    }
+
+    &:is(:active) {
+        background-color: #dae0e5;
+    }
+}
+
+.loading {
+    position: relative;
+    cursor: wait;
+}
+
+.small {
+    padding: 0.875rem 1rem;
+}
+
+.medium {
+    padding: 1rem 1.25rem;
+}
+
+.large {
+    padding: 1rem 1.875rem;
+    font-size: 1rem;
+}

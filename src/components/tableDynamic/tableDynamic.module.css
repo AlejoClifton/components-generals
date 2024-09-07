@@ -1,0 +1,8 @@
+.containTable {
+    overflow-x: auto;
+}
+
+.table {
+    border: 0.0625rem solid var(--bg-gray-15);
+    width: 100%;
+}

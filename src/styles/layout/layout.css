@@ -1,0 +1,22 @@
+.wrapperGeneric {
+    margin: 0 auto;
+    max-width: 75rem;
+    width: 95%;
+}
+
+.Toaster-Success {
+    background-color: #d4edda;
+    color: #155724;
+}
+.Toaster-Warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+.Toaster-Error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.Toaster-Info {
+    background-color: #cce5ff;
+    color: #004085;
+}

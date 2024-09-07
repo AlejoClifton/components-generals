@@ -1,0 +1,44 @@
+.tableTD {
+    text-align: left;
+    border-bottom: 1px solid var(--bg-gray-15);
+    border-top: 1px solid var(--bg-gray-15);
+    color: var(--primary-color);
+    height: 3.125rem;
+    vertical-align: middle;
+
+    &:first-child {
+        padding-left: 1.5rem;
+    }
+
+    &:last-child {
+        padding-right: 1.5rem;
+    }
+}
+
+.pen,
+.trash {
+    cursor: pointer;
+}
+
+.trash {
+    color: #dc2626;
+}
+
+.pen {
+    color: var(--primary-color);
+}
+
+.button {
+    border-radius: 3.125rem;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.button:hover {
+    background-color: #cfddf1;
+}
+
+.button:hover:last-child {
+    background-color: #f3abab;
+}

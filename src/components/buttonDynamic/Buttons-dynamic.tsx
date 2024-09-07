@@ -1,6 +1,5 @@
 'use client';
 import React from 'react';
-import './buttons.css';
 import styles from './buttons.module.css';
 
 const ButtonsDynamic: React.FC<ButtonsDynamicProps> = ({

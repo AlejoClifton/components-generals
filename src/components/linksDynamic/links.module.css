@@ -1,0 +1,42 @@
+.link {
+    border-radius: 3.125rem;
+    color: var(--links-01-color);
+    cursor: pointer;
+    display: inline-block;
+    margin: 0.625rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.primary {
+    &:is(:hover) {
+        text-decoration: underline;
+    }
+}
+
+.secondary {
+    background-color: var(--links-bg-01-color);
+    color: #ffffff;
+
+    &:is(:hover) {
+        background-color: color-mix(in srgb, var(--links-bg-01-color), black 20%);
+    }
+
+    &:is(:active) {
+        background-color: color-mix(in srgb, var(--links-bg-01-color), black 50%);
+    }
+}
+
+.small {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+}
+
+.medium {
+    padding: 0.875rem 1rem;
+    font-size: 0.875rem;
+}
+
+.large {
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+}

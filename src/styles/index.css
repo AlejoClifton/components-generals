@@ -16,3 +16,5 @@
 
 /* Elements */
 @import '@style/elements/elements.css';
+@import '@style/elements/buttons.css';
+@import '@style/elements/links.css';

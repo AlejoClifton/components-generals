@@ -1,0 +1,36 @@
+.inputDynamic {
+    background-color: white;
+    border-radius: 0.625rem;
+    border: 1px solid var(--bg-gray-20);
+    color: var(--bg-gray-90);
+    font-size: 14px;
+    margin: 1px;
+    padding: 0.875rem 1rem;
+    width: 100%;
+}
+
+.containPassword {
+    position: relative;
+    width: 100%;
+}
+
+.eyeContain {
+    border-radius: 50%;
+    height: 2.5rem;
+    position: absolute;
+    right: 0.625rem;
+    top: 3px;
+    user-select: none;
+    width: 2.5rem;
+
+    &:hover {
+        background-color: color-mix(in srgb, #94a3b8, white 80%);
+    }
+}
+
+.icon {
+    color: #193761;
+    cursor: pointer;
+    height: 1.5625rem;
+    width: 1.5625rem;
+}
